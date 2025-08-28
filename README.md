@@ -1,6 +1,7 @@
 **SignSpotter: AI-Powered Traffic Sign Recognition**
 
 Traffic signs are crucial for road safety, and automatic recognition of signs plays a vital role in autonomous driving systems. SignSpotter is a deep learning project that classifies German traffic signs using the GTSRB dataset.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **📂DATASET**
 
