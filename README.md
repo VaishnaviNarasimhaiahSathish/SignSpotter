@@ -60,3 +60,20 @@ Sample predictions grid
 **SAMPLE PREDICTIONS**
 
 Green = correct ✅, Red = incorrect ❌
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## ⚙️ How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<VaishnaviNarasimhaiahSathish>/SignSpotter.git
+   cd SignSpotter
+
+2. Install dependencies:
+pip install -r requirements.txt
+
+3. Download the GTSRB dataset from Kaggle
+https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
+
+4. Run the notebook:
+jupyter notebook notebooks/signspotter.ipynb
