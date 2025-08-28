@@ -29,7 +29,7 @@ _Samples:_
 
 **2. Model:** Convolutional Neural Network (CNN)
 
-**3. Layers: **Convolution → ReLU → MaxPooling → Fully Connected → Softmax
+**3. Layers:**Convolution → ReLU → MaxPooling → Fully Connected → Softmax
 
 **4. Loss Function:** CrossEntropyLoss
 
