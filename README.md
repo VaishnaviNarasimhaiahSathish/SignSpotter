@@ -25,15 +25,15 @@ _Samples:_
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **MODEL ARCHITECTURE**
 
-**Framework:** PyTorch
+**1. Framework:** PyTorch
 
-**Model:** Convolutional Neural Network (CNN)
+**2. Model:** Convolutional Neural Network (CNN)
 
-**Layers: **Convolution → ReLU → MaxPooling → Fully Connected → Softmax
+**3. Layers: **Convolution → ReLU → MaxPooling → Fully Connected → Softmax
 
-**Loss Function:** CrossEntropyLoss
+**4. Loss Function:** CrossEntropyLoss
 
-**Optimizer:** Adam
+**5. Optimizer:** Adam
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **RESULTS**
@@ -43,11 +43,9 @@ _Samples:_
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **EVALUATION METRICES:**
 
-Accuracy
-
-Confusion Matrix
-
-Sample predictions grid
+1. Accuracy
+2. Confusion Matrix
+3. Sample predictions grid
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **CONFUSION MATRIX**
