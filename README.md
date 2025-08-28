@@ -70,10 +70,12 @@ Green = correct ✅, Red = incorrect ❌
    cd SignSpotter
 
 2. Install dependencies:
+```bash
 pip install -r requirements.txt
 
-3. Download the GTSRB dataset from Kaggle
+4. Download the GTSRB dataset from Kaggle
 https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 
-4. Run the notebook:
+5. Run the notebook:
+ ```bash
 jupyter notebook notebooks/signspotter.ipynb
