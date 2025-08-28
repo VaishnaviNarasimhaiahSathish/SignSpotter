@@ -11,20 +11,27 @@ Traffic signs are crucial for road safety, and automatic recognition of signs pl
 _Samples:_
 
 **Training:** ~39,000 images
+
 **Testing:** ~12,600 images
 
 _Preprocessing:_
 
 Resizing images to 32×32
+
 Normalization
+
 Data augmentation (rotation, flipping, etc.)
 
 **MODEL ARCHITECTURE**
 
 **Framework:** PyTorch
+
 **Model:** Convolutional Neural Network (CNN)
+
 **Layers: **Convolution → ReLU → MaxPooling → Fully Connected → Softmax
+
 **Loss Function:** CrossEntropyLoss
+
 **Optimizer:** Adam
 
 **📊RESULTS**
@@ -33,5 +40,7 @@ Data augmentation (rotation, flipping, etc.)
 
 **EVALUATION METRICES:**
 Accuracy
+
 Confusion Matrix
+
 Sample predictions grid
