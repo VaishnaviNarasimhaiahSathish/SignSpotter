@@ -192,3 +192,11 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+*.pth
+data/train/
+data/test/
+data/train_split/
+data/val_split/
+__pycache__/
+.ipynb_checkpoints/
