@@ -2,17 +2,17 @@
 
 Traffic signs are crucial for road safety, and automatic recognition of signs plays a vital role in autonomous driving systems. SignSpotter is a deep learning project that classifies German traffic signs using the GTSRB dataset.
 
-**📂 Dataset**
+**📂 DATASET **
 
-Source: German Traffic Sign Recognition Benchmark (GTSRB)
+**Source:** German Traffic Sign Recognition Benchmark (GTSRB)
 
-Classes: 43 types of traffic signs
+**Classes:** 43 types of traffic signs
 
 _Samples:_
 
-Training: ~39,000 images
+**Training:** ~39,000 images
 
-Testing: ~12,600 images
+**Testing:** ~12,600 images
 
 _Preprocessing:_
 
@@ -22,23 +22,23 @@ Normalization
 
 Data augmentation (rotation, flipping, etc.)
 
-**Model Architecture**
+**MODEL ARCHITECTURE**
 
-Framework: PyTorch
+**Framework:** PyTorch
 
-Model: Convolutional Neural Network (CNN)
+**Model:** Convolutional Neural Network (CNN)
 
-Layers: Convolution → ReLU → MaxPooling → Fully Connected → Softmax
+**Layers: **Convolution → ReLU → MaxPooling → Fully Connected → Softmax
 
-Loss Function: CrossEntropyLoss
+**Loss Function:** CrossEntropyLoss
 
-Optimizer: Adam
+**Optimizer:** Adam
 
-**📊 Results**
+**📊 RESULTS **
 
-Test Accuracy: ~77.55%
+**Test Accuracy:** ~77.55%
 
-**Evaluation Metrics:**
+**EVALUATION METRICES:**
 
 Accuracy
 
