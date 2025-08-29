@@ -1,9 +1,9 @@
 torch
 torchvision
 numpy
-matplotlib
 pandas
-scikit-learn
-jupyter
-tqdm
+matplotlib
 seaborn
+scikit-learn
+Pillow
+opencv-python
