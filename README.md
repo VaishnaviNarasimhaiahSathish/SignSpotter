@@ -24,7 +24,7 @@ SignSpotter is an end-to-end deep learning project for traffic sign recognition 
 
    1. Test accuracy
 
-   2.Confusion matrix
+   2. Confusion matrix
 
    3. Classification report
 
