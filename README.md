@@ -4,7 +4,7 @@ Overview:
 SignSpotter is an end-to-end deep learning project for traffic sign recognition using Convolutional Neural Networks (CNNs). It classifies traffic signs from the GTSRB dataset with high accuracy and provides tools for visualization and inference.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Features**
+**FEATURES**
 
 1. Custom PyTorch Dataset class supporting ROI cropping.
 
