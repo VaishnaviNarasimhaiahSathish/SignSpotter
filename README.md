@@ -12,29 +12,29 @@ SignSpotter is an end-to-end deep learning project for traffic sign recognition 
 
 3. CNN model with:
 
-1. 2 convolutional layers
+   1. 2 convolutional layers
 
-2. MaxPooling and dropout layers
+   2. MaxPooling and dropout layers
 
-3. Fully connected layers for classification
+   3. Fully connected layers for classification
 
 4. Training with validation tracking and best model saving.
 
 5. Model evaluation using:
 
-1. Test accuracy
+   1. Test accuracy
 
-2.Confusion matrix
+   2.Confusion matrix
 
-3. Classification report
+   3. Classification report
 
 6. Inference and visualization:
 
-1. Single image prediction
+   1. Single image prediction
 
-2. Random sample predictions
+   2. Random sample predictions
 
-3. Prediction grids for multiple images
+   3. Prediction grids for multiple images
 
 7. Model saving and reloading for deployment-ready inference.
 
