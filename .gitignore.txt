@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# MacOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model weights
+models/*.pth
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Streamlit cached models/resources
+.streamlit/
+
+# VSCode settings (optional but recommended)
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
