@@ -83,7 +83,7 @@ During training, losses and accuracies for both train and validation sets were r
 
 After training, the final model achieved:
 
-1. **test accuracy**: 83.26%)
+1. **test accuracy**: 83.26%
 2. Clear classification boundaries in the confusion matrix
 ![Confusion Matrix](results/confusion_matrix.png)
 
