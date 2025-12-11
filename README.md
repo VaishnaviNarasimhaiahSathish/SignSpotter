@@ -1,4 +1,4 @@
-# # **SignSpotter — Traffic Sign Classification**
+**SignSpotter — Traffic Sign Classification**
 
 This project focuses on detecting and classifying traffic signs using a convolutional neural network built on top of MobileNetV2.
 The goal is to build an end-to-end system that loads the dataset, trains a robust model with augmentation, evaluates performance, and provides an easy-to-use Streamlit interface for real-time prediction.
@@ -6,7 +6,7 @@ The goal is to build an end-to-end system that loads the dataset, trains a robus
 The project uses the German Traffic Sign Recognition Benchmark (GTSRB) format, including bounding box metadata, but the final classifier works directly on full images (no ROI required for inference).
 
 
-## ## **Project Overview**
+## **Project Overview**
 
 The work includes:
 
@@ -21,7 +21,7 @@ The work includes:
 
 The final trained model is saved and reused for inference inside the app.
 
-## ## **Model Architecture**
+**Model Architecture**
 
 The project uses **MobileNetV2 (pretrained on ImageNet)**, modified to output 43 traffic sign classes.
 
@@ -33,7 +33,7 @@ Reasons for choosing MobileNetV2:
 * works well with limited data
 
 
-## ## **Folder Structure**
+**Folder Structure**
 
 ```
 SignSpotter/
@@ -66,7 +66,7 @@ SignSpotter/
 ├── results/
 ```
 
-## ## **Training Details**
+**Training Details**
 
 The model was trained using:
 
@@ -79,23 +79,20 @@ The model was trained using:
 
 During training, losses and accuracies for both train and validation sets were recorded and plotted to monitor learning behavior.
 
-
-## ## **Results**
+**Results**
 
 After training, the final model achieved:
 
-* **test accuracy**: 83.26%)
-* Clear classification boundaries in the confusion matrix
+1. **test accuracy**: 83.26%)
+2. Clear classification boundaries in the confusion matrix
 ![Confusion Matrix](results/confusion_matrix.png)
 
-* Good generalization performance due to augmentation
+3. Good generalization performance due to augmentation
 ![Training Curves](resulrs/training_curves.png)
-
-* Stable learning curves without heavy overfitting
 
 The classification report and confusion matrix provide detailed insights into per-class performance.
 
-## ## **Running the Streamlit App**
+**Running the Streamlit App**
 
 To launch the prediction interface:
 
@@ -114,8 +111,7 @@ Upload any traffic sign image, and the model will output:
 
 The model automatically handles preprocessing and normalization.
 
-
-## ## **Dependencies**
+**Dependencies**
 
 Install required packages using:
 
@@ -123,7 +119,7 @@ Install required packages using:
 pip install -r requirements.txt
 ```
 
-## ## **Future Improvements**
+**Future Improvements**
 
 * Add ROI-based detection before classification
 * Improve UI with probability visualizations
