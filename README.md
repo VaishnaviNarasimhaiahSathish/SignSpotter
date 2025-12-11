@@ -88,7 +88,7 @@ After training, the final model achieved:
 ![Confusion Matrix](results/confusion_matrix.png)
 
 3. Good generalization performance due to augmentation
-![Training Curves](resulrs/training_curves.png)
+![Training Curves](results/training_curves.png)
 
 The classification report and confusion matrix provide detailed insights into per-class performance.
 
