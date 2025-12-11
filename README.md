@@ -1,4 +1,4 @@
-**SignSpotter — Traffic Sign Classification**
+**SignSpotter - Traffic Sign Classification**
 
 This project focuses on detecting and classifying traffic signs using a convolutional neural network built on top of MobileNetV2.
 The goal is to build an end-to-end system that loads the dataset, trains a robust model with augmentation, evaluates performance, and provides an easy-to-use Streamlit interface for real-time prediction.
